@@ -32,6 +32,8 @@ public class TextViewer : MonoBehaviour {
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
         RaycastHit hit;
 
+        #region CenterColor
+
         if (Physics.Raycast(ray, out hit, 10f))
         {
             if (hit.collider.GetComponent<ObjectText>())
@@ -48,6 +50,9 @@ public class TextViewer : MonoBehaviour {
         {
             m_Center.color = baseColor;
         }
+
+        #endregion
+        
 
         if (Input.GetMouseButtonDown(0))
         {
