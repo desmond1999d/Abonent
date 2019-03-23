@@ -37,6 +37,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraSwitcher.cs" t="Include" />
+          <e p="GameController.cs" t="Include" />
           <e p="Point.cs" t="Include" />
           <e p="RayLicener.cs" t="Include" />
           <e p="ReactiveTarget.cs" t="Include" />

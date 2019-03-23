@@ -1,83 +1,108 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TextViewer : MonoBehaviour {
 
-    [SerializeField]
-    private GameObject m_Text;
-
-    [SerializeField]
-    private Image m_Center;
-
-    public Color baseColor;
-    [SerializeField]
-    private Color m_SetColor;
-
+    [SerializeField] private GameObject text;
+    [SerializeField] private Image centerImage;
+    [SerializeField] private Color baseColor;
+    [SerializeField] private Color setColor;
+    [SerializeField] private String tag = "ObjectText";
+    
+    private Camera mainCamera;
+    
+    private bool isEnabled = true;
     private bool isVisible = false;
 
-
-
-	// Use this for initialization
-	void Start () {
-
-        baseColor = m_Center.color;
-
+	void Start ()
+    {
+        mainCamera = GameController.Instance.MainCamera;
+        
+        baseColor = centerImage.color;
 	}
 	
 
 	void Update () {
 
-        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
-        RaycastHit hit;
+        if (isEnabled)
+        {
+            changeCenterColor();
 
-        #region CenterColor
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (!isVisible)
+                {
+                    viewText();
+                }
+            
+            }
+        }
+		
+	}
+
+    private void changeCenterColor()
+    {
+        Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
+        RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, 10f))
         {
-            if (hit.collider.GetComponent<ObjectText>())
+            if (hit.collider.CompareTag(tag))
             {
-                m_Center.color = m_SetColor;
+                if (hit.collider.GetComponent<ObjectText>())
+                {
+                    centerImage.color = setColor;
+                }
             }
             else
             {
-                m_Center.color = baseColor;
+                centerImage.color = baseColor;
             }
                
         }
         else
         {
-            m_Center.color = baseColor;
+            centerImage.color = baseColor;
         }
-
-        #endregion
+    }
+    private void viewText()
+    {
+        Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
+        RaycastHit hit;
         
-
-        if (Input.GetMouseButtonDown(0))
+        if (Physics.Raycast(ray, out hit, 10f))
         {
-            if (!isVisible)
+            //Debug.Log(hit.collider.gameObject.name);
+            if (hit.collider.GetComponent<ObjectText>())
             {
-                if (Physics.Raycast(ray, out hit, 10f))
-                {
-                    //Debug.Log(hit.collider.gameObject.name);
-                    if (hit.collider.GetComponent<ObjectText>())
-                    {
-                        m_Text.SetActive(true);
-                        m_Text.GetComponentInChildren<Text>().text = hit.collider.gameObject.GetComponent<ObjectText>().GetDescription();
-                    }
-                    else
-                    {
-                        m_Text.SetActive(false);
-                    }
-                }
-                else
-                {
-                    m_Text.SetActive(false);
-                }
+                text.SetActive(true);
+                text.GetComponentInChildren<Text>().text = hit.collider.gameObject.GetComponent<ObjectText>().GetDescription();
             }
-            
+            else
+            {
+                text.SetActive(false);
+            }
         }
-		
-	}
+        else
+        {
+            text.SetActive(false);
+        }
+    }
+
+    public void EnableThis(bool enable)
+    {
+        if (enable)
+        {
+            isEnabled = true;
+            centerImage.enabled = true;
+        }
+        else
+        {
+            isEnabled = false;
+            centerImage.enabled = false;
+        }
+    }
 }

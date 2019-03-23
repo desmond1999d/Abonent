@@ -28,10 +28,14 @@ public class CameraSwitcher : MonoBehaviour
 	[SerializeField] private CarUserControl mossUser;
 	[SerializeField] private GameObject FPSController;
 
+	private TextViewer textViewer;
+
 	private CameraType currentCameraType = CameraType.FPS;
 	
-	// Use this for initialization
-	void Start () {
+
+	void Start ()
+	{
+		textViewer = GameController.Instance.MainCanvas.gameObject.GetComponent<TextViewer>();
 		
 		zilController.enabled = false;
 		t400Controller.enabled = false;
@@ -58,25 +62,25 @@ public class CameraSwitcher : MonoBehaviour
 
 		if (Input.GetKeyDown(KeyCode.Alpha1))
 		{
-			cameraSwitch(CameraType.FPS);
+			CameraSwitch(CameraType.FPS);
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha2))
 		{
-			cameraSwitch(CameraType.Moss);
+			CameraSwitch(CameraType.Moss);
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha3))
 		{
-			cameraSwitch(CameraType.T400);
+			CameraSwitch(CameraType.T400);
 		}
 		
 		if (Input.GetKeyDown(KeyCode.Alpha4))
 		{
-			cameraSwitch(CameraType.Zil);
+			CameraSwitch(CameraType.Zil);
 		}
 
-		switch (currentCameraType)
+		/*switch (currentCameraType)
 		{
 			case CameraType.FPS:
 				break;
@@ -91,10 +95,10 @@ public class CameraSwitcher : MonoBehaviour
 				break;
 			default:
 				throw new ArgumentOutOfRangeException();
-		}
+		}*/
 	}
 
-	private void cameraSwitch(CameraType cameraType)
+	private void CameraSwitch(CameraType cameraType)
 	{
 		switch (currentCameraType)
 		{
@@ -116,8 +120,7 @@ public class CameraSwitcher : MonoBehaviour
 				zilUser.enabled = false;
 				zilAutoCam.gameObject.SetActive(false);
 				break;
-			default:
-				throw new ArgumentOutOfRangeException();
+
 		}
 		
 		switch (cameraType)
@@ -126,37 +129,51 @@ public class CameraSwitcher : MonoBehaviour
 				
 				FPSController.SetActive(true);
 				currentCameraType = CameraType.FPS;
-				
+				textViewer.EnableThis(true);
 				break;
 			case CameraType.T400:
 
 				t400AutoCam.gameObject.SetActive(true);
-				t400AutoCam.SetTarget(t400Controller.transform);
+//				t400AutoCam.SetTarget(t400Controller.transform);
+				StartCoroutine(SetTargetRoutine(t400AutoCam, t400Controller.transform));
 				t400User.enabled = true;
 				t400Controller.enabled = true;
 				currentCameraType = CameraType.T400;
-				
+				textViewer.EnableThis(false);
 				break;
 			case CameraType.Moss:
 
 				mossAutoCam.gameObject.SetActive(true);
-				mossAutoCam.SetTarget(mossController.transform);
+//				mossAutoCam.SetTarget(mossController.transform);
+				StartCoroutine(SetTargetRoutine(mossAutoCam, mossController.transform));
 				mossUser.enabled = true;
 				mossController.enabled = true;
 				currentCameraType = CameraType.Moss;
-				
+				textViewer.EnableThis(false);
 				break;
 			case CameraType.Zil:
 
 				zilAutoCam.gameObject.SetActive(true);
-				zilAutoCam.SetTarget(zilController.transform);
+//				zilAutoCam.SetTarget(zilController.transform);
+				StartCoroutine(SetTargetRoutine(zilAutoCam, zilController.transform));
 				zilUser.enabled = true;
 				zilController.enabled = true;
 				currentCameraType = CameraType.Zil;
-				
+				textViewer.EnableThis(false);
 				break;
 			default:
 				break;
+		}
+	}
+
+	private IEnumerator SetTargetRoutine(AutoCam autoCam, Transform target, int times = 2)
+	{
+		int count = 0;
+		while (count < times)
+		{
+			autoCam.SetTarget(target);
+			count++;
+			yield return new WaitForEndOfFrame();
 		}
 	}
 }
