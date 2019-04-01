@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 8eba4c7cb5d15954ab6fcfe943e68f00
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: akkum
+    100002: Black
+    100004: black-day
+    100006: Black2
+    100008: bonnet_ok
+    100010: bump
+    100012: //RootNode
+    100014: chassis
+    100016: derg
+    100018: Door_Lf_ok
+    100020: Door_Rf_ok
+    100022: F-o
+    100024: f-s
+    100026: ff1
+    100028: FFL
+    100030: fonari
+    100032: gluh
+    100034: Inside-day
+    100036: INSIDE-DET
+    100038: Kab-NoRef
+    100040: kardans
+    100042: kreplenie
+    100044: most
+    100046: MOTOR
+    100048: not1
+    100050: num
+    100052: Object001
+    100054: pipka
+    100056: podiposidi
+    100058: podkabinis
+    100060: shtora
+    100062: sids
+    100064: stuff
+    100066: stup
+    100068: SWHEEL
+    100070: wheel
+    100072: wheel01
+    100074: wheel02
+    100076: wheel03
+    100078: wheel04
+    100080: wheel05
+    100082: windscre01
+    100084: XOD
+    100086: zapaska
+    400000: akkum
+    400002: Black
+    400004: black-day
+    400006: Black2
+    400008: bonnet_ok
+    400010: bump
+    400012: //RootNode
+    400014: chassis
+    400016: derg
+    400018: Door_Lf_ok
+    400020: Door_Rf_ok
+    400022: F-o
+    400024: f-s
+    400026: ff1
+    400028: FFL
+    400030: fonari
+    400032: gluh
+    400034: Inside-day
+    400036: INSIDE-DET
+    400038: Kab-NoRef
+    400040: kardans
+    400042: kreplenie
+    400044: most
+    400046: MOTOR
+    400048: not1
+    400050: num
+    400052: Object001
+    400054: pipka
+    400056: podiposidi
+    400058: podkabinis
+    400060: shtora
+    400062: sids
+    400064: stuff
+    400066: stup
+    400068: SWHEEL
+    400070: wheel
+    400072: wheel01
+    400074: wheel02
+    400076: wheel03
+    400078: wheel04
+    400080: wheel05
+    400082: windscre01
+    400084: XOD
+    400086: zapaska
+    2300000: akkum
+    2300002: Black
+    2300004: black-day
+    2300006: Black2
+    2300008: bonnet_ok
+    2300010: bump
+    2300012: chassis
+    2300014: derg
+    2300016: Door_Lf_ok
+    2300018: Door_Rf_ok
+    2300020: F-o
+    2300022: f-s
+    2300024: ff1
+    2300026: FFL
+    2300028: fonari
+    2300030: gluh
+    2300032: Inside-day
+    2300034: INSIDE-DET
+    2300036: Kab-NoRef
+    2300038: kardans
+    2300040: kreplenie
+    2300042: most
+    2300044: MOTOR
+    2300046: not1
+    2300048: num
+    2300050: Object001
+    2300052: pipka
+    2300054: podiposidi
+    2300056: podkabinis
+    2300058: shtora
+    2300060: sids
+    2300062: stuff
+    2300064: stup
+    2300066: SWHEEL
+    2300068: wheel
+    2300070: wheel01
+    2300072: wheel02
+    2300074: wheel03
+    2300076: wheel04
+    2300078: wheel05
+    2300080: windscre01
+    2300082: XOD
+    2300084: zapaska
+    3300000: akkum
+    3300002: Black
+    3300004: black-day
+    3300006: Black2
+    3300008: bonnet_ok
+    3300010: bump
+    3300012: chassis
+    3300014: derg
+    3300016: Door_Lf_ok
+    3300018: Door_Rf_ok
+    3300020: F-o
+    3300022: f-s
+    3300024: ff1
+    3300026: FFL
+    3300028: fonari
+    3300030: gluh
+    3300032: Inside-day
+    3300034: INSIDE-DET
+    3300036: Kab-NoRef
+    3300038: kardans
+    3300040: kreplenie
+    3300042: most
+    3300044: MOTOR
+    3300046: not1
+    3300048: num
+    3300050: Object001
+    3300052: pipka
+    3300054: podiposidi
+    3300056: podkabinis
+    3300058: shtora
+    3300060: sids
+    3300062: stuff
+    3300064: stup
+    3300066: SWHEEL
+    3300068: wheel
+    3300070: wheel01
+    3300072: wheel02
+    3300074: wheel03
+    3300076: wheel04
+    3300078: wheel05
+    3300080: windscre01
+    3300082: XOD
+    3300084: zapaska
+    4300000: chassis
+    4300002: SWHEEL
+    4300004: F-o
+    4300006: f-s
+    4300008: sids
+    4300010: podiposidi
+    4300012: INSIDE-DET
+    4300014: fonari
+    4300016: shtora
+    4300018: not1
+    4300020: Black
+    4300022: Black2
+    4300024: black-day
+    4300026: Inside-day
+    4300028: podkabinis
+    4300030: Kab-NoRef
+    4300032: stup
+    4300034: pipka
+    4300036: stuff
+    4300038: ff1
+    4300040: FFL
+    4300042: bump
+    4300044: kreplenie
+    4300046: derg
+    4300048: zapaska
+    4300050: MOTOR
+    4300052: gluh
+    4300054: num
+    4300056: XOD
+    4300058: wheel02
+    4300060: wheel01
+    4300062: wheel04
+    4300064: wheel03
+    4300066: kardans
+    4300068: wheel05
+    4300070: wheel
+    4300072: most
+    4300074: Door_Lf_ok
+    4300076: akkum
+    4300078: windscre01
+    4300080: Door_Rf_ok
+    4300082: bonnet_ok
+    4300084: Object001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte_ 75999999
+    second: {fileID: 2100000, guid: 262b603073c8c8e46a0503aceb4d8bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Matte_ FF505050
+    second: {fileID: 2100000, guid: 58e11c77bef909944aa08f03c44e84b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black [spec]
+    second: {fileID: 2100000, guid: 40043490db56da242a7b9f2e6e4f39f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remaplinerunb01
+    second: {fileID: 2100000, guid: a5cb360d91ff24241990563d69f76269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: remaplinerunbod
+    second: {fileID: 2100000, guid: a5cb360d91ff24241990563d69f76269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-akk [spec]
+    second: {fileID: 2100000, guid: 32c80fbe817fc5f4ea7d1d5fee839d68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-bak [env_0,
+    second: {fileID: 2100000, guid: bf7ea8ec1c732f94c8dda7020d61bb15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-bak [env_50
+    second: {fileID: 2100000, guid: bf7ea8ec1c732f94c8dda7020d61bb15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-dve43 [env_
+    second: {fileID: 2100000, guid: 68c5e5ff37b215747bdaef3563bbef69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-eng1 [env_5
+    second: {fileID: 2100000, guid: dcca305a4cc801044913854d48046626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-eng2 [env_5
+    second: {fileID: 2100000, guid: 971c3c9c2c87cc34aafdf86ca1a8cd96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-eng2 [spec]
+    second: {fileID: 2100000, guid: 971c3c9c2c87cc34aafdf86ca1a8cd96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-far1 [spec]
+    second: {fileID: 2100000, guid: aa0cb3ee6c3db7745b9a841d8695a19e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-in1 [env_0]
+    second: {fileID: 2100000, guid: 4c626dce89b15bf4f9c8f4bb4d16cfa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-in2 [env_0,
+    second: {fileID: 2100000, guid: 271ee4431da7c2e418de61d655c197f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-ins2 [env_0
+    second: {fileID: 2100000, guid: 0ba3b7a48f37ccb49a7333a655695c20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-ins4
+    second: {fileID: 2100000, guid: fc579746f0981fd489d1cfa1d3efd7a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-kab1 [spec]
+    second: {fileID: 2100000, guid: cc832e1168b4d7e43b0148fbad23a547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-kab555 [env
+    second: {fileID: 2100000, guid: 2bb824828aa144c438e457b6022e96b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-kab6 [env_0
+    second: {fileID: 2100000, guid: c7f8d352dae1e6b4f8ec18161c450773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-mob1 [env_0
+    second: {fileID: 2100000, guid: 6dd0126a5757601408766c08734c9185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-most [env_5
+    second: {fileID: 2100000, guid: 76037b79bad268346a7bcfef79ba9093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-num43 [env_
+    second: {fileID: 2100000, guid: 4eb1bb036cbfab844809ef3da83bf3c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-pdv1 [env_0
+    second: {fileID: 2100000, guid: 91d7453dc8406a44a9583e293d044e32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-pdv1 [env_5
+    second: {fileID: 2100000, guid: 91d7453dc8406a44a9583e293d044e32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-pnl1 [env_0
+    second: {fileID: 2100000, guid: a500cd137780a2b468562b3e5007aadd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-rama [env_5
+    second: {fileID: 2100000, guid: a358d3cca4fcca741af8a5c4db78d560, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-rul1 [env_0
+    second: {fileID: 2100000, guid: 1b2ca3547e0531347af20551d63da79b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-rul2 [env_0
+    second: {fileID: 2100000, guid: 2f617d9a552e29941bba4a2486e7c035, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-stp1 [env_5
+    second: {fileID: 2100000, guid: bfb929c16ba863648b1a761b8cf6b51d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-stp2 [env_5
+    second: {fileID: 2100000, guid: c0ddd721fa1b2b24aa3f335ba474fb95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-voz1 [env_5
+    second: {fileID: 2100000, guid: 8a26a77f3d6ec29449c2c146152c3124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-vozd [spec]
+    second: {fileID: 2100000, guid: 21d61e6218450464a8abfb5a918f2d51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-xod1 [env_5
+    second: {fileID: 2100000, guid: dec3c245f1dd3654abc2226211a22b47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rrs-zer2 [env_0
+    second: {fileID: 2100000, guid: 3e8d3955a3b476842b92c4fa23fcec15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex5
+    second: {fileID: 2100000, guid: bfe1044390618a44eb6f58c68458d92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex6
+    second: {fileID: 2100000, guid: e1d999608c03eb3469faf8f44d842d95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex7
+    second: {fileID: 2100000, guid: 08fb8ece93a6e5740860ff5c80a6f6df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: to07 [env_0,spe
+    second: {fileID: 2100000, guid: 427d592173d5669499cd68af02b4eecc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights01
+    second: {fileID: 2100000, guid: ea1cfaa331b39ee4681b66a49ee5162c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights02
+    second: {fileID: 2100000, guid: 7755c8e64608430448a0a317cea956f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights03
+    second: {fileID: 2100000, guid: 8ab5d4af24c6edd4fb2773ccbaaf0e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights04
+    second: {fileID: 2100000, guid: 308600467e4fef94d87c4fcab044b6ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights05
+    second: {fileID: 2100000, guid: aa68048e520489a43953aec7cf3c74aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vehiclelights12
+    second: {fileID: 2100000, guid: ea1cfaa331b39ee4681b66a49ee5162c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
