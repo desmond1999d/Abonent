@@ -14,7 +14,7 @@ public class ConnectionManager : SingletonMonoBehaviour<ConnectionManager>
     [SerializeField]
     private float groundUpOffset = 0f;
     [SerializeField]
-    private bool isTesting;
+    public bool isTesting;
 
 
 #if UNITY_EDITOR
@@ -23,8 +23,14 @@ public class ConnectionManager : SingletonMonoBehaviour<ConnectionManager>
     private Transform firstObj = null;
     [SerializeField]
     private Transform secondObj = null;
+    [SerializeField]
+    private Transform thirdObj = null;
+    [SerializeField]
+    private Transform forthObj = null;
 
-    private LineRenderer testConnector = null;
+    private LineRenderer firstConnector = null;
+    private LineRenderer secondConnector = null;
+    private LineRenderer thirdConnector = null;
 #endif
 
 
@@ -35,14 +41,18 @@ public class ConnectionManager : SingletonMonoBehaviour<ConnectionManager>
     [ExecuteInEditMode]
     private void Update()
     {
-        if (testConnector != null)
+        if (firstConnector != null)
         {
-            DestroyImmediate(testConnector.gameObject);
+            DestroyImmediate(firstConnector.gameObject);
+            DestroyImmediate(secondConnector.gameObject);
+            DestroyImmediate(thirdConnector.gameObject);
         }
 
-        if (!isTesting || firstObj == null || secondObj == null) { return; }
+        if (!isTesting || firstObj == null || secondObj == null || thirdObj == null || forthObj == null) { return; }
 
-        testConnector = CreateConnection(firstObj, secondObj);
+        firstConnector = CreateConnection(firstObj, secondObj);
+        secondConnector = CreateConnection(firstObj, thirdObj);
+        thirdConnector = CreateConnection(firstObj, forthObj);
     }
 #endif
 
