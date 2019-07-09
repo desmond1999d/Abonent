@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 23a656838d7901b43ad379beed652250
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box214
+    100002: Box216
+    100004: Box217
+    100006: Box218
+    100008: Box219
+    100010: Box220
+    100012: Box221
+    100014: Box231
+    100016: Cylinder085
+    100018: Cylinder255
+    100020: Cylinder256
+    100022: Gengon049
+    100024: Gengon050
+    100026: Gengon051
+    100028: Gengon078
+    100030: Gengon079
+    100032: Gengon080
+    100034: Gengon081
+    100036: Holder
+    100038: Holder001
+    100040: Hook
+    100042: Hook001
+    100044: Ladder
+    100046: Ladder-hooks
+    100048: //RootNode
+    100050: Plane002
+    100052: Stick
+    100054: Stick-holder
+    400000: Box214
+    400002: Box216
+    400004: Box217
+    400006: Box218
+    400008: Box219
+    400010: Box220
+    400012: Box221
+    400014: Box231
+    400016: Cylinder085
+    400018: Cylinder255
+    400020: Cylinder256
+    400022: Gengon049
+    400024: Gengon050
+    400026: Gengon051
+    400028: Gengon078
+    400030: Gengon079
+    400032: Gengon080
+    400034: Gengon081
+    400036: Holder
+    400038: Holder001
+    400040: Hook
+    400042: Hook001
+    400044: Ladder
+    400046: Ladder-hooks
+    400048: //RootNode
+    400050: Plane002
+    400052: Stick
+    400054: Stick-holder
+    2300000: Box214
+    2300002: Box216
+    2300004: Box217
+    2300006: Box218
+    2300008: Box219
+    2300010: Box220
+    2300012: Box221
+    2300014: Box231
+    2300016: Cylinder085
+    2300018: Cylinder255
+    2300020: Cylinder256
+    2300022: Gengon049
+    2300024: Gengon050
+    2300026: Gengon051
+    2300028: Gengon078
+    2300030: Gengon079
+    2300032: Gengon080
+    2300034: Gengon081
+    2300036: Plane002
+    3300000: Box214
+    3300002: Box216
+    3300004: Box217
+    3300006: Box218
+    3300008: Box219
+    3300010: Box220
+    3300012: Box221
+    3300014: Box231
+    3300016: Cylinder085
+    3300018: Cylinder255
+    3300020: Cylinder256
+    3300022: Gengon049
+    3300024: Gengon050
+    3300026: Gengon051
+    3300028: Gengon078
+    3300030: Gengon079
+    3300032: Gengon080
+    3300034: Gengon081
+    3300036: Plane002
+    4300000: Box217
+    4300002: Box216
+    4300004: Gengon050
+    4300006: Gengon051
+    4300008: Gengon049
+    4300010: Box219
+    4300012: Box218
+    4300014: Box220
+    4300016: Box221
+    4300018: Cylinder085
+    4300020: Cylinder255
+    4300022: Cylinder256
+    4300024: Box231
+    4300026: Gengon080
+    4300028: Gengon081
+    4300030: Gengon079
+    4300032: Gengon078
+    4300034: Box214
+    4300036: Plane002
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cage green
+    second: {fileID: 2100000, guid: 23b5ee5b5d7cd1e4b9f8290fec0a2e75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #785'
+    second: {fileID: 2100000, guid: 26a368e0b5325a84c86608399522bcd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 2c075b037c2bd6d40ab2ada86f1332dd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
